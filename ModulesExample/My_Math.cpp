@@ -12,7 +12,6 @@ int factorial(int num){
     {
         fat = fat * i;
     }
-
     return fat;
 }
 
@@ -25,14 +24,12 @@ int cube(int num) {
 }
 
 int squareRoot(int num){
-
     for (int i = 0; i <= num; i++)
     {
         if (i*i == num) {
             return i;
         }   
     }
-
     return 0;
 }
 
