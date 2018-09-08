@@ -12,17 +12,13 @@ void reverseString( char name[] ){
     for (int i = size - 1 ; i >= 0 ; i--)
     {
         std::cout << name[i] << '\n';
-    }
-    
-    
-
+    } 
 }
 
 int main(int argc, char const *argv[])
 {
 
     char name[] = "Name";
-
     reverseString(name);
 
     getchar();
