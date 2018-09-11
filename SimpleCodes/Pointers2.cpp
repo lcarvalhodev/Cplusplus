@@ -15,7 +15,8 @@ int main(int argc, char const *argv[])
     cin >> *(vet + 1);
 
     delete [] vet;
-
+    vet = NULL;
+    
     getchar();
     return 0;
 }
