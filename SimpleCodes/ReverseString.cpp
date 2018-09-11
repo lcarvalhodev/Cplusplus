@@ -17,7 +17,6 @@ void reverseString( char name[] ){
 
 int main(int argc, char const *argv[])
 {
-
     char name[] = "Name";
     reverseString(name);
 

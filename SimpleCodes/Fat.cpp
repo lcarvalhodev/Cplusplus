@@ -20,7 +20,6 @@ int main(int argc, char const *argv[])
     cout << "Enter the number: " << '\n';
     cin >> num;
 
-    
     for(int i = 1; i <= num; i++)
     {
         fat = fat * i;

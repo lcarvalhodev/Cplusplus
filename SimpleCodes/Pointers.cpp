@@ -4,12 +4,9 @@
 using namespace std;
 
 void changeValue(int *n) {
-
     *n = 20;
-
 }
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
     int n =10;
     int* pn;
 
@@ -21,5 +18,5 @@ int main(int argc, char const *argv[])
     cout << n << endl;
 
     getchar();
-    return 0;
+    return 0;  
 }
