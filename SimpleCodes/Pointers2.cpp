@@ -8,15 +8,15 @@ int main(int argc, char const *argv[])
 
     int *vet = new int[10];
 
-    cout << "Digite um número: " << '\n';
+    cout << "Enter a number: " << '\n';
     cin >> *(vet);
 
-    cout << "Digite outro número: " << '\n';
+    cout << "Enter other number: " << '\n';
     cin >> *(vet + 1);
 
     delete [] vet;
     vet = NULL;
-    
+
     getchar();
     return 0;
 }
